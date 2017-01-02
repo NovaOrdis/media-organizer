@@ -28,7 +28,9 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
 
-        System.out.println(".");
+        for(String s: args) {
+            System.out.println(s);
+        }
     }
 
     // Attributes ------------------------------------------------------------------------------------------------------
