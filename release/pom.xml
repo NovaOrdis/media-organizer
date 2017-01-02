@@ -3,9 +3,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>io.novaordis.mo</groupId>
-        <artifactId>media-organizer</artifactId>
-        <version>1.0.0-SNAPSHOT-1</version>
+        <groupId>io.novaordis.media-organizer</groupId>
+        <artifactId>media-organizer-root</artifactId>
+        <version>1.0.0-SNAPSHOT-2</version>
     </parent>
 
     <name>Media Organizer Release Module</name>
@@ -43,7 +43,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>io.novaordis.mo</groupId>
+            <groupId>io.novaordis.media-organizer</groupId>
             <artifactId>media-organizer</artifactId>
             <version>${project.version}</version>
         </dependency>

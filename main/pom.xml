@@ -3,13 +3,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>io.novaordis.mo</groupId>
-        <artifactId>media-organizer</artifactId>
-        <version>1.0.0-SNAPSHOT-1</version>
+        <groupId>io.novaordis.media-organizer</groupId>
+        <artifactId>media-organizer-root</artifactId>
+        <version>1.0.0-SNAPSHOT-2</version>
     </parent>
 
     <name>Media Organizer Library</name>
-    <artifactId>novaordis-media-organizer</artifactId>
+    <artifactId>media-organizer</artifactId>
     <packaging>jar</packaging>
 
     <properties>

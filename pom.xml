@@ -4,9 +4,9 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>io.novaordis.mo</groupId>
-    <artifactId>media-organizer</artifactId>
-    <version>1.0.0-SNAPSHOT-1</version>
+    <groupId>io.novaordis.media-organizer</groupId>
+    <artifactId>media-organizer-root</artifactId>
+    <version>1.0.0-SNAPSHOT-2</version>
     <packaging>pom</packaging>
 
     <modules>
