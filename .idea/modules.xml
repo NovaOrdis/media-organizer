@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/main/media-organizer.iml" filepath="$PROJECT_DIR$/main/media-organizer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/media-organizer-root.iml" filepath="$PROJECT_DIR$/media-organizer-root.iml" />
+      <module fileurl="file://$PROJECT_DIR$/release/release.iml" filepath="$PROJECT_DIR$/release/release.iml" />
+    </modules>
+  </component>
+</project>
