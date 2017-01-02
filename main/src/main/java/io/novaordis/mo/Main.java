@@ -17,6 +17,7 @@
 package io.novaordis.mo;
 
 import io.novaordis.utilities.UserErrorException;
+import io.novaordis.utilities.version.VersionUtilities;
 import org.apache.sanselan.ImageReadException;
 import org.apache.sanselan.Sanselan;
 import org.apache.sanselan.common.IImageMetadata;
@@ -45,6 +46,15 @@ public class Main {
     // Static ----------------------------------------------------------------------------------------------------------
 
     public static void main(String[] args) throws Exception {
+
+        for(String s: args) {
+
+            if ("version".equals(s)) {
+
+                System.out.println(VersionUtilities.getVersion());
+                System.exit(0);
+            }
+        }
 
         if (args.length == 0) {
             throw new UserErrorException("specify file");
