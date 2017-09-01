@@ -17,18 +17,16 @@
       <profile default="true" name="Default" enabled="false">
         <processorPath useClasspath="true" />
       </profile>
-      <profile default="false" name="Annotation profile for media-organizer" enabled="true">
+      <profile default="false" name="Annotation profile for novaordis-ssh" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="media-organizer" />
+        <module name="novaordis-ssh" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="media-organizer" target="1.8" />
-      <module name="media-organizer-root" target="1.5" />
-      <module name="release" target="1.5" />
+      <module name="novaordis-ssh" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

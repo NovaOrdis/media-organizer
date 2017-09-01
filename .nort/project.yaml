@@ -2,7 +2,7 @@
 # mo release configuration 
 #
 qualification:
-  os.command.to.get.installed.version: mo version
+  os.command.to.get.installed.version: 
 
 build:
 
